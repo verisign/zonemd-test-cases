@@ -1,6 +1,16 @@
 example.	86400	IN	NS	ns.example.
 example.	86400	IN	SOA	ns.example. admin.example. 2018031900 1800 900 604800 86400
-example.	86400	IN	ZONEMD	2018031900 1 1 1492d2d045e6fe8314c55294e6ea22b5252840542f3e27b47a1879aca06e4f0a6414d362388c77463ea2534579f2049f
-example.	86400	IN	TYPE65317	\# 38 7848b91c020072a0d7ec0c269a178a5fe2098c467ef60b72ade7a445d9efcf40c225ee8c9747
+example.	86400	IN	ZONEMD  2018031900 1 1 c5bef5cf123f6b91586a472315bc67d210f3480bfab4b5c111003318aa7d8c95751071f53f5887864201470a121ea098
+example.	86400	IN	TXT	"This example has a repeated A RR which must be ignored"
+ns.example.	3600	IN	A	127.0.0.1
+ns.example.	3600	IN	A	127.0.0.1
+ns.example.	3600	IN	A	127.0.0.1
+ns.example.	3600	IN	A	127.0.0.1
+ns.example.	3600	IN	A	127.0.0.1
+ns.example.	3600	IN	A	127.0.0.1
+ns.example.	3600	IN	A	127.0.0.1
+ns.example.	3600	IN	A	127.0.0.1
+ns.example.	3600	IN	A	127.0.0.1
+ns.example.	3600	IN	A	127.0.0.1
 ns.example.	3600	IN	A	127.0.0.1
 ns.example.	3600	IN	A	127.0.0.1
