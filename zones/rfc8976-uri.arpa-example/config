@@ -1,0 +1,3 @@
+zonefile=uri.arpa.zone
+origin=uri.arpa
+expected_result=success
