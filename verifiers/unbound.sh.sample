@@ -33,9 +33,10 @@ auth-zone:
 EOF
 
 /path/to/unbound -c $TD/unbound.conf -d -v -v -v 2>/dev/null &
+set +e
 sleep 1
 grep -q 'ZONEMD verification successful' $TD/unbound.log
 rc=$?
 kill `cat $TD/unbound.pid`
-grep ZONEMD $TD/unbound.log
+cat $TD/unbound.log
 exit $rc
