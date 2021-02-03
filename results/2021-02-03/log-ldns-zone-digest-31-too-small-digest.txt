@@ -1,0 +1,4 @@
+Loading Zone...4 records
+Ignoring digest of size 2, smaller than the minimum length 12
+
+ldns-zone-digest.sh exited with status 1

@@ -1,0 +1,3 @@
+zones/43-rfc8976-root-servers.net-example/root-servers.net.zone has a valid digest
+
+zone-digest-hackathon.sh exited with status 0

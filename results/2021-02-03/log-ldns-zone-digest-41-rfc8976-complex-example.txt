@@ -1,0 +1,7 @@
+Loading Zone...ldns-zone-digest: ldns-zone-digest.c(657): Ignoring out-of-zone data for 'foo.test.'
+20 records
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: duplicate.example.	300	IN	TXT	"I must be digested just once"
+
+Found and calculated digests for scheme:hashalg 1:1 do MATCH.
+
+ldns-zone-digest.sh exited with status 0

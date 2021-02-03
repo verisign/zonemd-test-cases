@@ -1,0 +1,245 @@
+<style type="text/css">
+table, th, td {
+  padding: 10px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+td.pass { text-align:center }
+td.pass a { color:green; }
+td.fail { text-align:center }
+td.fail a { color:red; }
+td.zone { text-align:left }
+</style>
+<table>
+<tr>
+  <th>2021-02-03</th>
+  <th>dns-tools</th>
+  <th>ldns-verifyzone</th>
+  <th>ldns-zone-digest</th>
+  <th>unbound</th>
+  <th>zone-digest-hackathon</th>
+<tr>
+  <td class='zone'><a href='zone-01-sha384-simple.txt'>01-sha384-simple</a></td>
+  <td class='pass'><a href='log-dns-tools-01-sha384-simple.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-01-sha384-simple.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-01-sha384-simple.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-01-sha384-simple.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-01-sha384-simple.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-02-sha512-simple.txt'>02-sha512-simple</a></td>
+  <td class='pass'><a href='log-dns-tools-02-sha512-simple.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-02-sha512-simple.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-02-sha512-simple.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-02-sha512-simple.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-02-sha512-simple.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-10-uppercase-owner-names.txt'>10-uppercase-owner-names</a></td>
+  <td class='pass'><a href='log-dns-tools-10-uppercase-owner-names.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-10-uppercase-owner-names.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-10-uppercase-owner-names.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-10-uppercase-owner-names.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-10-uppercase-owner-names.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-11-uppercase-rdata-names.txt'>11-uppercase-rdata-names</a></td>
+  <td class='pass'><a href='log-dns-tools-11-uppercase-rdata-names.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-11-uppercase-rdata-names.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-11-uppercase-rdata-names.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-11-uppercase-rdata-names.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-11-uppercase-rdata-names.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-12-duplicate-rrs.txt'>12-duplicate-rrs</a></td>
+  <td class='pass'><a href='log-dns-tools-12-duplicate-rrs.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-12-duplicate-rrs.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-12-duplicate-rrs.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-12-duplicate-rrs.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-12-duplicate-rrs.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-13-extra-soa.txt'>13-extra-soa</a></td>
+  <td class='pass'><a href='log-dns-tools-13-extra-soa.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-13-extra-soa.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-13-extra-soa.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-13-extra-soa.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-13-extra-soa.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-14-non-apex-zonemd.txt'>14-non-apex-zonemd</a></td>
+  <td class='pass'><a href='log-dns-tools-14-non-apex-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-14-non-apex-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-14-non-apex-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-14-non-apex-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-14-non-apex-zonemd.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-15-no-rdata.txt'>15-no-rdata</a></td>
+  <td class='pass'><a href='log-dns-tools-15-no-rdata.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-15-no-rdata.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-15-no-rdata.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-15-no-rdata.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-15-no-rdata.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-16-occluding-ns.txt'>16-occluding-ns</a></td>
+  <td class='pass'><a href='log-dns-tools-16-occluding-ns.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-16-occluding-ns.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-16-occluding-ns.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-16-occluding-ns.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-16-occluding-ns.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-17-occluding-dname.txt'>17-occluding-dname</a></td>
+  <td class='pass'><a href='log-dns-tools-17-occluding-dname.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-17-occluding-dname.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-17-occluding-dname.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-17-occluding-dname.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-17-occluding-dname.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-18-sort-by-type.txt'>18-sort-by-type</a></td>
+  <td class='pass'><a href='log-dns-tools-18-sort-by-type.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-18-sort-by-type.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-18-sort-by-type.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-18-sort-by-type.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-18-sort-by-type.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-19-wildcard.txt'>19-wildcard</a></td>
+  <td class='pass'><a href='log-dns-tools-19-wildcard.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-19-wildcard.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-19-wildcard.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-19-wildcard.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-19-wildcard.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-20-generic-zonemd.txt'>20-generic-zonemd</a></td>
+  <td class='pass'><a href='log-dns-tools-20-generic-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-20-generic-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-20-generic-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-20-generic-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-20-generic-zonemd.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-21-out-of-zone-data.txt'>21-out-of-zone-data</a></td>
+  <td class='pass'><a href='log-dns-tools-21-out-of-zone-data.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-21-out-of-zone-data.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-21-out-of-zone-data.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-21-out-of-zone-data.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-21-out-of-zone-data.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-22-lots-rr-types.txt'>22-lots-rr-types</a></td>
+  <td class='fail'><a href='log-dns-tools-22-lots-rr-types.txt'>fail</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-22-lots-rr-types.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-22-lots-rr-types.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-22-lots-rr-types.txt'>pass</a></td>
+  <td class='fail'><a href='log-zone-digest-hackathon-22-lots-rr-types.txt'>fail</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-23-multiple-zonemd.txt'>23-multiple-zonemd</a></td>
+  <td class='pass'><a href='log-dns-tools-23-multiple-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-23-multiple-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-23-multiple-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-23-multiple-zonemd.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-23-multiple-zonemd.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-30-repeated-scheme-algorithm.txt'>30-repeated-scheme-algorithm</a></td>
+  <td class='fail'><a href='log-dns-tools-30-repeated-scheme-algorithm.txt'>fail</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-30-repeated-scheme-algorithm.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-30-repeated-scheme-algorithm.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-30-repeated-scheme-algorithm.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-30-repeated-scheme-algorithm.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-31-too-small-digest.txt'>31-too-small-digest</a></td>
+  <td class='fail'><a href='log-dns-tools-31-too-small-digest.txt'>fail</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-31-too-small-digest.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-31-too-small-digest.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-31-too-small-digest.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-31-too-small-digest.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-32-truncated-digest.txt'>32-truncated-digest</a></td>
+  <td class='fail'><a href='log-dns-tools-32-truncated-digest.txt'>fail</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-32-truncated-digest.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-32-truncated-digest.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-32-truncated-digest.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-32-truncated-digest.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-33-unknown-hash-algorithm.txt'>33-unknown-hash-algorithm</a></td>
+  <td class='pass'><a href='log-dns-tools-33-unknown-hash-algorithm.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-33-unknown-hash-algorithm.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-33-unknown-hash-algorithm.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-33-unknown-hash-algorithm.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-33-unknown-hash-algorithm.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-34-unknown-scheme.txt'>34-unknown-scheme</a></td>
+  <td class='pass'><a href='log-dns-tools-34-unknown-scheme.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-34-unknown-scheme.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-34-unknown-scheme.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-34-unknown-scheme.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-34-unknown-scheme.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-35-wrong-serial.txt'>35-wrong-serial</a></td>
+  <td class='pass'><a href='log-dns-tools-35-wrong-serial.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-35-wrong-serial.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-35-wrong-serial.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-35-wrong-serial.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-35-wrong-serial.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-40-rfc8976-simple-example.txt'>40-rfc8976-simple-example</a></td>
+  <td class='pass'><a href='log-dns-tools-40-rfc8976-simple-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-40-rfc8976-simple-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-40-rfc8976-simple-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-40-rfc8976-simple-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-40-rfc8976-simple-example.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-41-rfc8976-complex-example.txt'>41-rfc8976-complex-example</a></td>
+  <td class='pass'><a href='log-dns-tools-41-rfc8976-complex-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-41-rfc8976-complex-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-41-rfc8976-complex-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-41-rfc8976-complex-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-41-rfc8976-complex-example.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-42-rfc8976-uri.arpa-example.txt'>42-rfc8976-uri.arpa-example</a></td>
+  <td class='pass'><a href='log-dns-tools-42-rfc8976-uri.arpa-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-42-rfc8976-uri.arpa-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-42-rfc8976-uri.arpa-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-42-rfc8976-uri.arpa-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-42-rfc8976-uri.arpa-example.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-43-rfc8976-root-servers.net-example.txt'>43-rfc8976-root-servers.net-example</a></td>
+  <td class='pass'><a href='log-dns-tools-43-rfc8976-root-servers.net-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-43-rfc8976-root-servers.net-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-43-rfc8976-root-servers.net-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-43-rfc8976-root-servers.net-example.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-43-rfc8976-root-servers.net-example.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-44-root-zone.txt'>44-root-zone</a></td>
+  <td class='pass'><a href='log-dns-tools-44-root-zone.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-verifyzone-44-root-zone.txt'>pass</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-44-root-zone.txt'>pass</a></td>
+  <td class='pass'><a href='log-unbound-44-root-zone.txt'>pass</a></td>
+  <td class='pass'><a href='log-zone-digest-hackathon-44-root-zone.txt'>pass</a></td>
+</tr>
+<tr>
+  <td class='zone'><a href='zone-80-mixed-classes.txt'>80-mixed-classes</a></td>
+  <td class='pass'><a href='log-dns-tools-80-mixed-classes.txt'>pass</a></td>
+  <td class='fail'><a href='log-ldns-verifyzone-80-mixed-classes.txt'>fail</a></td>
+  <td class='pass'><a href='log-ldns-zone-digest-80-mixed-classes.txt'>pass</a></td>
+  <td class='fail'><a href='log-unbound-80-mixed-classes.txt'>fail</a></td>
+  <td class='fail'><a href='log-zone-digest-hackathon-80-mixed-classes.txt'>fail</a></td>
+</tr>
+</table>

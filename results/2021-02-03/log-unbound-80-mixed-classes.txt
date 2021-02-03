@@ -1,0 +1,22 @@
+verifiers/unbound.sh: 40: kill: No such process
+
+[1612396619] unbound[116167:0] debug: module config: "validator iterator"
+[1612396619] unbound[116167:0] notice: init module 0: validator
+[1612396619] unbound[116167:0] debug: validator nsec3cfg keysz 1024 mxiter 150
+[1612396619] unbound[116167:0] debug: validator nsec3cfg keysz 2048 mxiter 500
+[1612396619] unbound[116167:0] debug: validator nsec3cfg keysz 4096 mxiter 2500
+[1612396619] unbound[116167:0] notice: init module 1: iterator
+[1612396619] unbound[116167:0] debug: target fetch policy for level 0 is 3
+[1612396619] unbound[116167:0] debug: target fetch policy for level 1 is 2
+[1612396619] unbound[116167:0] debug: target fetch policy for level 2 is 1
+[1612396619] unbound[116167:0] debug: target fetch policy for level 3 is 0
+[1612396619] unbound[116167:0] debug: target fetch policy for level 4 is 0
+[1612396619] unbound[116167:0] debug: donotq: 127.0.0.0/8
+[1612396619] unbound[116167:0] debug: donotq: ::1
+[1612396619] unbound[116167:0] debug: read zonefile example.zone for example.
+[1612396619] unbound[116167:0] error: wrong class for RR
+[1612396619] unbound[116167:0] error: example.zone:6 cannot insert RR of type A
+[1612396619] unbound[116167:0] error: error parsing zonefile example.zone for example.
+[1612396619] unbound[116167:0] fatal error: auth_zones could not be setup
+
+unbound.sh exited with status 1

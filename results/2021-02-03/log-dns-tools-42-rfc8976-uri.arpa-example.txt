@@ -1,0 +1,23 @@
+[dns-tools] 2021/02/03 23:56:28 Zone must be valid before 2021-02-03 23:56:28.252579284 +0000 UTC m=+0.001364260 to succeed
+[dns-tools] 2021/02/03 23:56:28 Zone parsed is uri.arpa.
+[dns-tools] 2021/02/03 23:56:28 DS for KSK with tag 30577 is "uri.arpa.	3600	IN	DS	30577 8 1 3BD346AF7AC0E9EE3138EF0CF4AFCFF806E2EFBA"
+[dns-tools] 2021/02/03 23:56:28 DS for KSK with tag 12670 is "uri.arpa.	3600	IN	DS	12670 8 1 5A4109D292E94B1494C95E66B76D879BABE1CC60"
+[dns-tools] 2021/02/03 23:56:28 number of signatures: 14
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] uri.arpa.#IN#NSEC
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] http.uri.arpa.#IN#NAPTR
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] urn.uri.arpa.#IN#NSEC
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] mailto.uri.arpa.#IN#NAPTR
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] uri.arpa.#IN#MX
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] uri.arpa.#IN#DNSKEY
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] uri.arpa.#IN#ZONEMD
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] ftp.uri.arpa.#IN#NAPTR
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] ftp.uri.arpa.#IN#NSEC
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] mailto.uri.arpa.#IN#NSEC
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] uri.arpa.#IN#NS
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] uri.arpa.#IN#SOA
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] http.uri.arpa.#IN#NSEC
+[dns-tools] 2021/02/03 23:56:28 [ OK  ] urn.uri.arpa.#IN#NAPTR
+[dns-tools] 2021/02/03 23:56:28 Zone Signature: Verified Successfully.
+[dns-tools] 2021/02/03 23:56:28 Zone Digest: Verified Successfully.
+
+dns-tools.sh exited with status 0

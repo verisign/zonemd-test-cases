@@ -1,0 +1,3 @@
+zones/42-rfc8976-uri.arpa-example/uri.arpa.zone has a valid digest
+
+zone-digest-hackathon.sh exited with status 0

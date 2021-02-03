@@ -1,0 +1,4 @@
+Could not validate zone digest: All OK
+There were errors in the zone
+
+ldns-verifyzone.sh exited with status 112

@@ -1,0 +1,16 @@
+Loading Zone...14 records
+Found and calculated digests for scheme:hashalg 1:1 do MATCH.
+Found and calculated digests for scheme:hashalg 1:2 do MATCH.
+ldns-zone-digest: ldns-zone-digest.c(855): Unsupported hash algorithm 240
+Unable to verify unsupported hash algorithm 240
+ldns-zone-digest: ldns-zone-digest.c(855): Unsupported hash algorithm 241
+Unable to verify unsupported hash algorithm 241
+ldns-zone-digest: ldns-zone-digest.c(855): Unsupported hash algorithm 242
+Unable to verify unsupported hash algorithm 242
+ldns-zone-digest: ldns-zone-digest.c(855): Unsupported hash algorithm 243
+Unable to verify unsupported hash algorithm 243
+ldns-zone-digest: ldns-zone-digest.c(855): Unsupported hash algorithm 244
+Unable to verify unsupported hash algorithm 244
+ldns-zone-digest: ldns-zone-digest.c(853): No in-memory data for scheme 240
+
+ldns-zone-digest.sh exited with status 0
