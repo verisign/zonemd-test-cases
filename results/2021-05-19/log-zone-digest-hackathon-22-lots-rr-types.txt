@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/dns/zone.py", line 975, in read
+    self._rr_line()
+  File "/usr/lib/python3/dist-packages/dns/zone.py", line 711, in _rr_line
+    raise va
+  File "/usr/lib/python3/dist-packages/dns/zone.py", line 706, in _rr_line
+    rd = dns.rdata.from_text(rdclass, rdtype, self.tok,
+  File "/usr/lib/python3/dist-packages/dns/rdata.py", line 391, in from_text
+    return cls.from_text(rdclass, rdtype, tok, origin, relativize)
+  File "/usr/lib/python3/dist-packages/dns/rdata.py", line 282, in from_text
+    raise dns.exception.SyntaxError(
+dns.exception.SyntaxError: generic rdata does not start with \#
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/wessels/Edit/github.com/ZoneDigestHackathon-wessels/digestify.py", line 79, in <module>
+    main()
+  File "/home/wessels/Edit/github.com/ZoneDigestHackathon-wessels/digestify.py", line 55, in main
+    zone = dns.zone.from_file(filename, check_origin=False,
+  File "/usr/lib/python3/dist-packages/dns/zone.py", line 1080, in from_file
+    z = from_text(f, origin, rdclass, relativize, zone_factory,
+  File "/usr/lib/python3/dist-packages/dns/zone.py", line 1028, in from_text
+    reader.read()
+  File "/usr/lib/python3/dist-packages/dns/zone.py", line 980, in read
+    raise dns.exception.SyntaxError(
+dns.exception.SyntaxError: zones/22-lots-rr-types/example.com.zone:16: generic rdata does not start with \#
+
+zone-digest-hackathon.sh exited with status 1

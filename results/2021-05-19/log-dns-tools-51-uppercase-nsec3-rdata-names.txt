@@ -1,0 +1,34 @@
+[dns-tools] 2021/05/19 19:11:49 Zone must be valid before 2021-05-19 19:11:49.583576777 +0000 UTC m=+0.001486641 to succeed
+[dns-tools] 2021/05/19 19:11:49 Zone parsed is arpa.
+[dns-tools] 2021/05/19 19:11:49 DS for KSK with tag 18949 is "arpa.	86400	IN	DS	18949 8 1 E77577322A25D9D7A31E4C074E9E6326EDF842BD"
+[dns-tools] 2021/05/19 19:11:49 number of signatures: 37
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] earmj48jel1c2rdhigd36n68u3v8q1kv.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] uri.arpa.#IN#DS
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] as112.arpa.#IN#DS
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] ba4462jfp3iqk2kt4coimt6532ksv55k.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] c26tiai64ha5jpb4p8kii6p9jhh3tjfh.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] ip6.arpa.#IN#DS
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] urn.arpa.#IN#DS
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] arpa.#IN#NS
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] 3mkq4f9mv3h6jsjnuj6g31krjlhkn9kj.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] e164.arpa.#IN#DS
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] iris.arpa.#IN#DS
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] ksh70ck6pogi86ent4ont3i9uj71qe8k.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] arpa.#IN#NSEC3PARAM
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] 0js82oec35lbbc4hl35476cm5icacksf.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] ip6-servers.arpa.#IN#DS
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] arpa.#IN#DNSKEY
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] arpa.#IN#ZONEMD
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] srggvlp1di07ijt2ia31agjrpfcnc616.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] arpa.#IN#SOA
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] dkas8ue0e261d6338p2gmf52alh64la6.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] mkqddr5c3mprp6dru5to19bb27tdvcvt.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] h2d0rtq108uooub5udnn9d2pgqbvabc9.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] in-addr.arpa.#IN#DS
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] sstss4tf3icj43rcmuqtsjorrddsrsrl.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] 2ub8en7bk0t6denigo3i729ivqvme3ve.arpa.#IN#NSEC3
+[dns-tools] 2021/05/19 19:11:49 [ OK  ] in-addr-servers.arpa.#IN#DS
+[dns-tools] 2021/05/19 19:11:49 Zone Signature: Verified Successfully.
+[dns-tools] 2021/05/19 19:11:49 Zone Digest: Verified Successfully.
+
+dns-tools.sh exited with status 0

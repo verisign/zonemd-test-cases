@@ -1,0 +1,23 @@
+[dns-tools] 2021/05/19 19:11:47 Zone must be valid before 2021-05-19 19:11:47.584439774 +0000 UTC m=+0.001343851 to succeed
+[dns-tools] 2021/05/19 19:11:47 Zone parsed is uri.arpa.
+[dns-tools] 2021/05/19 19:11:47 DS for KSK with tag 30577 is "uri.arpa.	3600	IN	DS	30577 8 1 3BD346AF7AC0E9EE3138EF0CF4AFCFF806E2EFBA"
+[dns-tools] 2021/05/19 19:11:47 DS for KSK with tag 12670 is "uri.arpa.	3600	IN	DS	12670 8 1 5A4109D292E94B1494C95E66B76D879BABE1CC60"
+[dns-tools] 2021/05/19 19:11:47 number of signatures: 14
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet mailto.uri.arpa.#IN#NSEC has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet urn.uri.arpa.#IN#NAPTR has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet uri.arpa.#IN#NSEC has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet uri.arpa.#IN#DNSKEY has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet ftp.uri.arpa.#IN#NSEC has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet mailto.uri.arpa.#IN#NAPTR has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet uri.arpa.#IN#SOA has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet uri.arpa.#IN#MX has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet ftp.uri.arpa.#IN#NAPTR has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet http.uri.arpa.#IN#NAPTR has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet uri.arpa.#IN#NS has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet uri.arpa.#IN#ZONEMD has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet http.uri.arpa.#IN#NSEC has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 the Signature for RRSet urn.uri.arpa.#IN#NSEC has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 Zone Signature: the Signature for RRSet urn.uri.arpa.#IN#NSEC has already expired. Expiration date: 2021-02-17 23:24:40
+[dns-tools] 2021/05/19 19:11:47 Zone Digest: Verified Successfully.
+
+dns-tools.sh exited with status 0

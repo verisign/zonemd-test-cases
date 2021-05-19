@@ -1,0 +1,5 @@
+Loading Zone...5 records
+Ignoring repeated digest with scheme 1 and algorithm 1
+Ignoring repeated digest with scheme 1 and algorithm 1
+
+ldns-zone-digest.sh exited with status 1

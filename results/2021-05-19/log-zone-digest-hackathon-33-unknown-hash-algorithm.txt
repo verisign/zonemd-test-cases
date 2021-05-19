@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/wessels/Edit/github.com/ZoneDigestHackathon-wessels/digestify.py", line 79, in <module>
+    main()
+  File "/home/wessels/Edit/github.com/ZoneDigestHackathon-wessels/digestify.py", line 58, in main
+    okay, err = zonemd.validate_zonemd(zone)
+  File "/home/wessels/Edit/github.com/ZoneDigestHackathon-wessels/zonemd.py", line 337, in validate_zonemd
+    digest = calculate_zonemd(zone, zonemd.algorithm)
+  File "/home/wessels/Edit/github.com/ZoneDigestHackathon-wessels/zonemd.py", line 223, in calculate_zonemd
+    raise ZoneDigestUnknownAlgorithm(msg)
+zonemd.ZoneDigestUnknownAlgorithm: Unknown or unsupported algorithm 13
+
+zone-digest-hackathon.sh exited with status 1

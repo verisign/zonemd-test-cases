@@ -1,0 +1,6 @@
+zones/22-lots-rr-types/example.com.zone:13: using RFC1035 TTL semantics
+zones/22-lots-rr-types/example.com.zone:16: old style DNSSEC  zone detected
+zone example.com/IN: loaded serial 1
+OK
+
+named.sh exited with status 0

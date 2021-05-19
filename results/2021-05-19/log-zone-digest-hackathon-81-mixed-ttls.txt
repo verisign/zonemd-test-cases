@@ -1,0 +1,3 @@
+zones/81-mixed-ttls/example.zone does NOT have a valid digest: ZONEMD digest a846c7d6c780c394f6f4b691c8d2f26f9a6b29462a8d28179cb81652da170deca290cfbebff9380e0efb0cfee12ccc71 does not match calculated digest 9378dd172743931dbdcd76e07a7f45cd3470063924587f2adfe2e7783de107dcaee525eb98ffb49db3c12f202367dd64
+
+zone-digest-hackathon.sh exited with status 1

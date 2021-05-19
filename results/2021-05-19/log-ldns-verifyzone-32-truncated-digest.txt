@@ -1,0 +1,4 @@
+Could not validate zone digest: No ZONEMD matching the zone data was found
+There were errors in the zone
+
+ldns-verifyzone.sh exited with status 112

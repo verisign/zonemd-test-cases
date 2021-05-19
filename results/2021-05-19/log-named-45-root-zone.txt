@@ -1,0 +1,5 @@
+zones/45-root-zone/root.zone.hashed:15: signature has expired
+zone ./IN: loaded serial 2021011901 (DNSSEC signed)
+OK
+
+named.sh exited with status 0

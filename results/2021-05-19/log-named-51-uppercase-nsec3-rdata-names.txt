@@ -1,0 +1,4 @@
+zone arpa/IN: loaded serial 2021051902 (DNSSEC signed)
+OK
+
+named.sh exited with status 0

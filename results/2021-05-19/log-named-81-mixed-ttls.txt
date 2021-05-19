@@ -1,0 +1,6 @@
+zones/81-mixed-ttls/example.zone:10: TTL set to prior TTL (456)
+zones/81-mixed-ttls/example.zone:11: TTL set to prior TTL (456)
+zone example/IN: loaded serial 2021051800
+OK
+
+named.sh exited with status 0
