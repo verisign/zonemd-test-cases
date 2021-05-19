@@ -4,4 +4,9 @@ set -e
 origin=$1 ; shift
 file=$1; shift
 
-/path/to/ldns-verify-zone -V 4 -Z $file
+T_OPT=''
+if test -n "$DNSSEC_VALIDATION_TIME" ; then
+	T_OPT="-t $DNSSEC_VALIDATION_TIME"
+fi
+
+/path/to/ldns-verify-zone -V 4 $T_OPT -Z $file

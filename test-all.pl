@@ -120,6 +120,9 @@ foreach my $vsh (@VERIFIERS) {
 
 	foreach my $Z (@ZONES) {
 		my $cfg = read_cfg("$Z/config");
+		if ($cfg->{'validation_time'}) {
+			$ENV{'DNSSEC_VALIDATION_TIME'} = $cfg->{'validation_time'};
+		}
 		my $log = rundir_logfile($vsh, $Z);
 		my $zfile = join('/', $Z, $cfg->{'zonefile'});
 		if ($do_html || $do_markdown) {
@@ -149,6 +152,7 @@ foreach my $vsh (@VERIFIERS) {
 			$nfail++;
 		}
 		$results->{$Z}->{$vsh} = $passfail;
+		delete $ENV{'DNSSEC_VALIDATION_TIME'};
 	}
 	print "Tests Passed: $npass\n";
 	print "Tests Failed: $nfail\n\n";
