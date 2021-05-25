@@ -1,0 +1,31 @@
+[1621959530] unbound[13125:0] debug: module config: "validator iterator"
+[1621959530] unbound[13125:0] notice: init module 0: validator
+[1621959530] unbound[13125:0] debug: validator nsec3cfg keysz 1024 mxiter 150
+[1621959530] unbound[13125:0] debug: validator nsec3cfg keysz 2048 mxiter 500
+[1621959530] unbound[13125:0] debug: validator nsec3cfg keysz 4096 mxiter 2500
+[1621959530] unbound[13125:0] notice: init module 1: iterator
+[1621959530] unbound[13125:0] debug: target fetch policy for level 0 is 3
+[1621959530] unbound[13125:0] debug: target fetch policy for level 1 is 2
+[1621959530] unbound[13125:0] debug: target fetch policy for level 2 is 1
+[1621959530] unbound[13125:0] debug: target fetch policy for level 3 is 0
+[1621959530] unbound[13125:0] debug: target fetch policy for level 4 is 0
+[1621959530] unbound[13125:0] debug: donotq: 127.0.0.0/8
+[1621959530] unbound[13125:0] debug: donotq: ::1
+[1621959530] unbound[13125:0] debug: read zonefile example.zone for example.
+[1621959530] unbound[13125:0] debug: auth-zone example. ZONEMD failed: unsupported scheme
+[1621959530] unbound[13125:0] warning: auth zone example.: ZONEMD verification failed: unsupported scheme
+[1621959530] unbound[13125:0] debug: total of 59464 outgoing ports available
+[1621959530] unbound[13125:0] debug: start threads
+[1621959530] unbound[13125:0] debug: mini-event internal uses select method.
+[1621959530] unbound[13125:0] debug: no config, using builtin root hints.
+[1621959530] unbound[13125:0] debug: cache memory msg=66072 rrset=66072 infra=7808 val=66352
+[1621959530] unbound[13125:0] info: start of service (unbound 1.12.1).
+[1621959531] unbound[13125:0] info: service stopped (unbound 1.12.1).
+[1621959531] unbound[13125:0] debug: stop threads
+[1621959531] unbound[13125:0] debug: cleanup.
+[1621959531] unbound[13125:0] info: server stats for thread 0: 0 queries, 0 answers from cache, 0 recursions, 0 prefetch, 0 rejected by ip ratelimiting
+[1621959531] unbound[13125:0] info: server stats for thread 0: requestlist max 0 avg 0 exceeded 0 jostled 0
+[1621959531] unbound[13125:0] info: mesh has 0 recursion states (0 with reply, 0 detached), 0 waiting replies, 0 recursion replies sent, 0 replies dropped, 0 states jostled out
+[1621959531] unbound[13125:0] debug: cache memory msg=66072 rrset=66072 infra=7808 val=66352
+
+unbound.sh exited with status 1

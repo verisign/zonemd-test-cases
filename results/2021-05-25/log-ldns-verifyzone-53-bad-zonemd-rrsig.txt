@@ -1,0 +1,10 @@
+Error: Bogus DNSSEC signature for zonemd.packet-pushers.com.	ZONEMD
+RRSet:
+zonemd.packet-pushers.com.	3600	IN	ZONEMD	1621955743 1 1 9286f155438495fc5c4c103fc1c41c0fc66663defecf0bf4d31f5d48204e411b60143559d97f53ed93ad6255eb3c2ca2
+Signature:
+zonemd.packet-pushers.com.	3600	IN	RRSIG	ZONEMD 13 3 3600 20210622151543 20210525151543 4201 zonemd.packet-pushers.com. 1coYJwYOu1Oc1Ez1DcKpMtsw/mw11P1UBmnd1L1H1MxVDEjyb1PMKKO1iKIAXxNcs1Rtl1SKQ1bn1vkx1LY1Fg==
+
+There were errors in the zone
+Zone digest matched the zone content
+
+ldns-verifyzone.sh exited with status 35

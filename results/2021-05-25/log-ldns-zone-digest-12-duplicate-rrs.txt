@@ -1,0 +1,26 @@
+Loading Zone...16 records
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+ldns-zone-digest: ldns-zone-digest.c(388): Ignoring duplicate RR: ns.example.	3600	IN	A	127.0.0.1
+
+Found and calculated digests for scheme:hashalg 1:1 do MATCH.
+
+ldns-zone-digest.sh exited with status 0

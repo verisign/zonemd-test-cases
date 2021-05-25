@@ -1,0 +1,16 @@
+[dns-tools] 2021/05/25 16:18:25 Zone must be valid before 2021-05-25 16:18:25.291175078 +0000 UTC m=+0.002075051 to succeed
+[dns-tools] 2021/05/25 16:18:25 Zone parsed is zonemd.packet-pushers.com.
+[dns-tools] 2021/05/25 16:18:25 DS for KSK with tag 22069 is "zonemd.packet-pushers.com.	3600	IN	DS	22069 13 1 2040423FC97AFBEA34C70F8AC9F53790A6603950"
+[dns-tools] 2021/05/25 16:18:25 number of signatures: 8
+[dns-tools] 2021/05/25 16:18:25 [Error] (dns: bad signature) zonemd.packet-pushers.com.#IN#ZONEMD  
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] localhost.zonemd.packet-pushers.com.#IN#A
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] localhost.zonemd.packet-pushers.com.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] zonemd.packet-pushers.com.#IN#NS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] zonemd.packet-pushers.com.#IN#SOA
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] zonemd.packet-pushers.com.#IN#TXT
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] zonemd.packet-pushers.com.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] zonemd.packet-pushers.com.#IN#DNSKEY
+[dns-tools] 2021/05/25 16:18:25 Zone Signature: Verified Successfully.
+[dns-tools] 2021/05/25 16:18:25 Zone Digest: Verified Successfully.
+
+dns-tools.sh exited with status 0

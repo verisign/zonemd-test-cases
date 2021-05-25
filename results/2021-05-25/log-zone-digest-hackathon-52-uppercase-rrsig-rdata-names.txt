@@ -1,0 +1,3 @@
+zones/52-uppercase-rrsig-rdata-names/arpa.zone.hashed does NOT have a valid digest: ZONEMD digest db114bb13809ed81b8fa94f3024996b646b2762805676b0f6a5569b96196f1307d7a9cde68c4eea614a15c59c2332532 does not match calculated digest a471c01b0c137282367a3184c24260d346e91690c7a64a0dbccb1fff3068a177555cd6f7a8b02817cda684e5fd9cbd96
+
+zone-digest-hackathon.sh exited with status 1

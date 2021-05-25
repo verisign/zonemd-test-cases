@@ -1,0 +1,6 @@
+zones/80-mixed-classes/example.zone:5: class 'HS' != zone class 'IN'
+zones/80-mixed-classes/example.zone:6: class 'ANY' != zone class 'IN'
+zone example/IN: loading from master file zones/80-mixed-classes/example.zone failed: bad class
+zone example/IN: not loaded due to errors.
+
+named.sh exited with status 1

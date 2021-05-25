@@ -1,0 +1,5 @@
+zones/41-rfc8976-complex-example/example.zone:18: ignoring out-of-zone data (foo.test)
+zone example/IN: loaded serial 2018031900
+OK
+
+named.sh exited with status 0

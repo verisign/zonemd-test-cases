@@ -1,0 +1,6 @@
+[dns-tools] 2021/05/25 16:18:22 Zone must be valid before 2021-05-25 16:18:22.97664873 +0000 UTC m=+0.001375262 to succeed
+[dns-tools] 2021/05/25 16:18:22 Zone parsed is example.
+[dns-tools] 2021/05/25 16:18:22 Zone Signature: could not find enough dnskeys
+[dns-tools] 2021/05/25 16:18:22 Zone Digest: Verified Successfully.
+
+dns-tools.sh exited with status 0

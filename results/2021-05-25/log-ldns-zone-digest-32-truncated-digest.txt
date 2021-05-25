@@ -1,0 +1,4 @@
+Loading Zone...4 records
+Ignoring digest of size 22, expected size 48 for alg 1
+
+ldns-zone-digest.sh exited with status 1

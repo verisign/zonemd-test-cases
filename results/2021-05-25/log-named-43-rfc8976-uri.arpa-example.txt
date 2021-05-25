@@ -1,0 +1,5 @@
+zones/43-rfc8976-uri.arpa-example/uri.arpa.zone:5: signature has expired
+zone uri.arpa/IN: loaded serial 2018100702 (DNSSEC signed)
+OK
+
+named.sh exited with status 0

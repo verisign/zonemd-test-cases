@@ -1,0 +1,6 @@
+[dns-tools] 2021/05/25 16:18:23 Zone must be valid before 2021-05-25 16:18:23.139567219 +0000 UTC m=+0.001380287 to succeed
+[dns-tools] 2021/05/25 16:18:23 Zone parsed is example.
+[dns-tools] 2021/05/25 16:18:23 Zone Signature: could not find enough dnskeys
+[dns-tools] 2021/05/25 16:18:23 Zone Digest: ZONEMD serial does not match with SOA serial
+
+dns-tools.sh exited with status 1

@@ -1,0 +1,5 @@
+dns_rdata_fromtext: zones/31-too-small-digest/example.zone:3: near eol: unexpected end of input
+zone example/IN: loading from master file zones/31-too-small-digest/example.zone failed: unexpected end of input
+zone example/IN: not loaded due to errors.
+
+named.sh exited with status 1

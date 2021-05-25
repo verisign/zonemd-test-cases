@@ -1,0 +1,5 @@
+zones/30-repeated-scheme-algorithm/example.zone:4: using RFC1035 TTL semantics
+zone example/IN: loaded serial 2018031900
+OK
+
+named.sh exited with status 0

@@ -1,0 +1,4 @@
+zone root-servers.net/IN: loaded serial 2018091100
+OK
+
+named.sh exited with status 0

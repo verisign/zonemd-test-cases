@@ -1,0 +1,4 @@
+Loading Zone...5 records
+Found and calculated digests for scheme:hashalg 1:1 do MATCH.
+
+ldns-zone-digest.sh exited with status 0

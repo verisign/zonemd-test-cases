@@ -1,0 +1,33 @@
+[dns-tools] 2021/05/25 16:18:25 Zone must be valid before 2021-05-25 16:18:25.213713491 +0000 UTC m=+0.002197536 to succeed
+[dns-tools] 2021/05/25 16:18:25 Zone parsed is arpa.
+[dns-tools] 2021/05/25 16:18:25 DS for KSK with tag 18949 is "arpa.	86400	IN	DS	18949 8 1 E77577322A25D9D7A31E4C074E9E6326EDF842BD"
+[dns-tools] 2021/05/25 16:18:25 number of signatures: 36
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] in-addr-servers.arpa.#IN#DS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] iris.arpa.#IN#DS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] iris.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] arpa.#IN#SOA
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] as112.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] e164.arpa.#IN#DS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] arpa.#IN#DNSKEY
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] e164.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] urn.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] arpa.#IN#NS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] ip6.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] ip6-servers.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] arpa.#IN#ZONEMD
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] home.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] in-addr.arpa.#IN#DS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] in-addr.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] ip6-servers.arpa.#IN#DS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] ipv4only.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] uri.arpa.#IN#DS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] uri.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] as112.arpa.#IN#DS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] ip6.arpa.#IN#DS
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] in-addr-servers.arpa.#IN#NSEC
+[dns-tools] 2021/05/25 16:18:25 [ OK  ] urn.arpa.#IN#DS
+[dns-tools] 2021/05/25 16:18:25 Zone Signature: Verified Successfully.
+[dns-tools] 2021/05/25 16:18:25 Zone Digest: Verified Successfully.
+
+dns-tools.sh exited with status 0

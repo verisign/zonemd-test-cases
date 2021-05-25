@@ -1,0 +1,4 @@
+Loading Zone...4 records
+ldns-zone-digest: ldns-zone-digest.c(853): Unsupported scheme 13
+
+ldns-zone-digest.sh exited with status 1
