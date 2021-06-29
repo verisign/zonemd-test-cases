@@ -59,4 +59,4 @@ CAA		999	CAA	0 issue "ca.example.net"
 			CAA	0 iodef "http://iodef.example.com/"
 ;TA		999	TA	19036 8 1 b256bd09dc8dd59f0e0f0d8541b8328dd986df6e
 GENERIC		999	TYPE65281 \# 6 abcd ef 01 23 45
-example.com.    999     IN      ZONEMD  1 1 1 efc8d45a563b1e858d58060835e25830e9695a983ee21c3f62f89b9c27db0b6745f9c6213e37eb236847110fd747f705
+example.com.    999     IN      ZONEMD  1 1 1 664046d77f36f640b1c5297fa56a695c180f9b688c6e8d915eff8fdad9b7bbfc00a833b77812b9f0785cc1ebfb57d709
