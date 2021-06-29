@@ -1,4 +1,4 @@
-arpa.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2021051902 1800 900 604800 86400
+arpa.	86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2021062901 1800 900 604800 86400
 arpa.	518400	IN	NS	a.root-servers.net.
 arpa.	518400	IN	NS	b.root-servers.net.
 arpa.	518400	IN	NS	c.root-servers.net.
@@ -11,7 +11,7 @@ arpa.	518400	IN	NS	i.root-servers.net.
 arpa.	518400	IN	NS	k.root-servers.net.
 arpa.	518400	IN	NS	l.root-servers.net.
 arpa.	518400	IN	NS	m.root-servers.net.
-arpa.	86400	IN	TYPE63	\# 54 7876cdfe0101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+arpa.	86400	IN	TYPE63	\# 54 7876f8f50101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 as112.arpa.	172800	IN	NS	a.iana-servers.net.
 as112.arpa.	172800	IN	NS	b.iana-servers.net.
 as112.arpa.	172800	IN	NS	c.iana-servers.net.
@@ -26,7 +26,7 @@ e164.arpa.	172800	IN	NS	ns3.afrinic.net.
 e164.arpa.	172800	IN	NS	ns4.apnic.net.
 e164.arpa.	172800	IN	NS	pri.authdns.ripe.net.
 e164.arpa.	172800	IN	NS	rirns.arin.net.
-e164.arpa.	86400	IN	DS	46334 8 2 550664875d1121c6edd01f9602577640fed5ad19a749ae1e3fd68476af454578
+e164.arpa.	86400	IN	DS	12553 13 2 afd44f150f46084491502b3cf2ccfdc8e2d4dcfca06df393d494fb702d64faed
 home.arpa.	172800	IN	NS	blackhole-1.iana.org.
 home.arpa.	172800	IN	NS	blackhole-2.iana.org.
 in-addr.arpa.	172800	IN	NS	a.in-addr-servers.arpa.

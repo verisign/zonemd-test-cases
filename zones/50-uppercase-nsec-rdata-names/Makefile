@@ -6,10 +6,10 @@ READZONE=ldns-read-zone
 ZONEHASH=env LD_LIBRARY_PATH=/usr/local/lib ${HOME}/Edit/ldns-zone-digest/ldns-zone-digest
 
 arpa.zone.hashed: arpa.zone.signed
-	${ZONEHASH} -c -z ${ZSK}.private -g -o $@__ ${ORIGIN} arpa.zone.signed
-	${READZONE} $@__ \
+	${READZONE} arpa.zone.signed \
 	| awk '$$4 == "NSEC" {$$5=toupper($$5)} {print}' \
-	> $@_
+	> $@__
+	${ZONEHASH} -c -z ${ZSK}.private -g -o $@_ ${ORIGIN} $@__
 	mv $@_ $@
 	rm -fv $@__
 
