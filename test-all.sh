@@ -26,6 +26,10 @@ for VSH in $VERIFIERS ; do
 		try_canonical=''
 		# shellcheck source=zones/01-sha384-simple/config
 		. "zones/$Z/config"
+		if test "$expected_result" = "fail" ; then
+                	echo "'fail' should be 'failure' in zones/$Z/config"
+			exit 1
+		fi
 		echo ""					>> "$VL"
 		echo "===== Verify $Z with $V ===="	>> "$VL"
 		printf "%s verifying %s: " "$V" "$Z"

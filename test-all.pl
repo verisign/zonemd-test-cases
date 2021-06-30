@@ -33,6 +33,7 @@ sub read_cfg {
 	open(F, $file) or die "$file: $!";
 	while (<F>) {
 		next unless /(\w+)\s*=\s*([-\w\.]+)/;
+		die "'fail' should be 'failure' in $file\n" if $1 eq 'expected_result' and $2 eq 'fail';
 		$cfg->{$1} = $2;
 	}
 	close(F);
